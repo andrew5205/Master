@@ -18,6 +18,7 @@
                 enqueue()
                 printQueue()
     CH-7 : balancePoint.js
+           balanceIndex.js
 
     CH-9 :  sigma.js
             factorial.js
@@ -153,6 +154,7 @@ CH-6 :  queuesAndStacks.js
             printArr() - console.dir()
 
 CH-7 :  balancePoint.js
+        balanceIndex.js
 
 CH-9 :  sigma.js
         factorial.js
