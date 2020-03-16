@@ -1,0 +1,167 @@
+
+1. basic13.js 
+2. myLib.js
+3. myBuildInFunc.js
+4. mathLib.js  
+5. reverseStrArr.js  
+6. sll.js
+7. recursion.js
+8. jsFundamentals.js 
+9. fund2.js
+10. array.js
+11. string.js
+12. Anagram.js
+13. master folder 
+    Ch-5 :  linkedList.js 
+    Ch-6 :  queueAndStacks.js 
+            introToQueues.js
+                enqueue()
+                printQueue()
+    CH-7 : balancePoint.js
+
+    CH-9 :  sigma.js
+            factorial.js
+            fibonacci.js
+            tribonacci.js
+    CH-11 : binarySearchTree.js
+
+    CH-12 : bubbleSort.js
+            selectionSort.js
+            insertionSort.js
+
+13. Anagram.js
+
+
+
+1. basic13.js 
+
+2. myLib.js 
+    swap()
+    random()
+    floor()
+    randomStr()
+    indexOf()
+    toString() - 
+    convert to binary/ hex - using toString()
+    sertAt() - 
+    removeAt() - 
+    swap() -
+    charCodeAt() - String.prototype
+
+3. myBuildInFunc.js 
+    myReverse()
+    myToLowerCase()
+    process.stdout.write() <- console.log()
+
+
+4. mathLib.js
+    Math.random()
+    Math.floor()
+    Math.ceil()
+    Math.trunc()
+
+5. reverseStrArr.js 
+    split()
+    reverse()
+    join()
+    substr()
+    charAt()
+
+
+6. sll.js
+
+
+7. recursion.js
+
+8. jsFundamentals.js 
+    Max, min, and Average
+    Fizz Buzz 
+    Braces Valid
+
+9. fund2.js
+    Fibonacci
+    Sum all digit to a number 
+    Sum To One Digit 
+    IS Prime
+
+10. array.js
+    push() - Array.prototype
+    pop() - Array.prototype
+    splice() - Array.prototype
+    slice() - Array.prototype
+    split() - String.prototype
+    join() - Array.prototype
+    forEach() - Array.prototype
+    insertAt() - 
+    removeAt() - 
+    swap() - 
+
+    Remove Duplicate from sorted array 
+    Remove Duplicate from non sorted array 
+
+    sort() - Array.prototype
+
+11. string.js
+    str.length
+    str.split() - String.prototype 
+    arr.join() - Array.prototype
+    str.slice() - String.prototype
+    str.trim() - String.prototype
+    str.search() - String.prototype  
+    str.charCodeAt() - String.prototype
+    str.toUpperCase() - String.prototype
+    str.toLowerCase() - String.prototype
+    str.replace() - String.prototype
+
+    Remove blanks
+    Get string digits 
+    Acronyms
+    Count Non-Spaces
+    Remove Shorter Strings
+    String: Reverse
+    Is Palindrome
+    remove duplicate
+    print given sting, run-Length Encoding
+
+12. Anagram.js
+
+
+
+master folder 
+
+CH-5 :  linkedList.js 
+            addToFront()
+            addToEnd()
+            removeFromFront()
+            printList() -> process.stdout.write(data + " string ")
+            * maxToBack() 
+            * minToFront()
+            removeNode()
+            appendAt()
+            prependAt()
+            partition()
+
+CH-6 :  queuesAndStacks.js 
+
+        introToQueues.js 
+            enqueue()
+            printQueue()
+        
+        queueUsingTwoStacks.js
+            pushStack()
+            popStack()
+            printArr() - console.dir()
+
+CH-7 :  balancePoint.js
+
+CH-9 :  sigma.js
+        factorial.js
+        fibonacci.js
+        tribonacci.js
+
+CH-11 : binarySearchTree.js
+
+CH-12 : bubbleSort.js
+        selectionSort.js
+        insertionSort.js
+
