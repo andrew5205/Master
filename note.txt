@@ -11,7 +11,8 @@
 10. array.js
 11. string.js
 12. Anagram.js
-13. master folder 
+13. master folder
+    Ch-4 :  zipArrayIntoMap.js
     Ch-5 :  linkedList.js 
     Ch-6 :  queueAndStacks.js 
             introToQueues.js
@@ -129,6 +130,7 @@
 
 
 master folder 
+CH-4 :  zipArrayIntoMap.js
 
 CH-5 :  linkedList.js 
             addToFront()
