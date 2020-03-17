@@ -14,6 +14,7 @@
 13. master folder
     Ch-4 :  zipArrayIntoMap.js
             invertHash.js
+            forKeyInObj.js
 
     Ch-5 :  linkedList.js 
     Ch-6 :  queueAndStacks.js 
@@ -134,6 +135,7 @@
 master folder 
 CH-4 :  zipArrayIntoMap.js
         invertHash.js
+        forKeyInObj.js
 
 CH-5 :  linkedList.js 
             addToFront()
