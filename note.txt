@@ -33,6 +33,7 @@
     CH-12 : bubbleSort.js
             selectionSort.js
             insertionSort.js
+            quickSort.js
 
 13. Anagram.js
 
@@ -173,4 +174,5 @@ CH-11 : binarySearchTree.js
 CH-12 : bubbleSort.js
         selectionSort.js
         insertionSort.js
+        quickSort.js
 
