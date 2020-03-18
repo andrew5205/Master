@@ -6,13 +6,26 @@
 // 2.
 // O(N) — “Order N”
 // 3.
-// O(N 2 ) — “Order N squared”
+// O(N^2 ) — “Order N squared”
 // 4.
 // O(n log n) — “Order N log N”
 
 
+// Brief:
+// Big-O describes worse-case performance (“performance will never be any worse than …”); 
+
+// Big-Omega best-case (“in the ideal situation, performance might be as good as …”);
+
+// Big-Theta average case (“on average across a broad range of inputs, performance will be …”).
 
 
+// big-O
+// how their running time or space requirements grow as the input size grows
+// The letter O is used because the growth rate of a function is also referred to as the order of the function
+
+// ************************************************************************************************* // 
+
+// O(1) < O(log N) < O(n) < O(N log N) < O(N^2) < O(2^N) < O(n!)
 
 // ************************************************************************************************* // 
 // 1.
