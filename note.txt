@@ -30,7 +30,8 @@
             tribonacci.js
     CH-11 : binarySearchTree.js
 
-    CH-12 : bubbleSort.js
+    CH-12 : bigONotation.js
+            bubbleSort.js
             selectionSort.js
             insertionSort.js
             quickSort.js
@@ -101,11 +102,13 @@
     insertAt() - 
     removeAt() - 
     swap() - 
+    concat() - Array.prototype, String.prototype
 
     Remove Duplicate from sorted array 
     Remove Duplicate from non sorted array 
 
     sort() - Array.prototype
+    filter() - Array.prototype
 
 11. string.js
     str.length
@@ -118,6 +121,7 @@
     str.toUpperCase() - String.prototype
     str.toLowerCase() - String.prototype
     str.replace() - String.prototype
+    concat() - Array.prototype, String.prototype
 
     Remove blanks
     Get string digits 
@@ -171,7 +175,8 @@ CH-9 :  sigma.js
 
 CH-11 : binarySearchTree.js
 
-CH-12 : bubbleSort.js
+CH-12 : bigONotation.js
+        bubbleSort.js
         selectionSort.js
         insertionSort.js
         quickSort.js
