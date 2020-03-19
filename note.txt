@@ -23,6 +23,7 @@
                 printQueue()
     CH-7 : balancePoint.js
            balanceIndex.js
+           binarySearch.js
 
     CH-9 :  sigma.js
             factorial.js
@@ -167,6 +168,7 @@ CH-6 :  queuesAndStacks.js
 
 CH-7 :  balancePoint.js
         balanceIndex.js
+        binarySearch.js
 
 CH-9 :  sigma.js
         factorial.js

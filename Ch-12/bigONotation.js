@@ -121,4 +121,6 @@ function quickSort(arr) {
 console.log(quickSort(['q','a','z','w','s','x','e','d','c','r']));      
 // ["a", "c", "d", "e", "q", "r", "s", "w", "x", "z"]
 
+console.log(quickSort([77,23,3,35,101,8,23,15,32,55]));
+// [ 3,  8, 15, 23,  23, 32, 35, 55, 77, 101]
 
