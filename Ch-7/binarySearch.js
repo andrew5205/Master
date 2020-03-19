@@ -14,6 +14,11 @@ function binarySearch(arr, element) {
         var end = arr[arr.length - 1];
         var mid = Math.floor((start + end) / 2);
 
+        // edge case 
+        if ( arr[mid] == element) {
+            return arr[mid];
+        }
+
         while ( arr[mid] != element && start <= end) {
             if ( arr[mid] < element) {
                 start = mid + 1;
@@ -25,7 +30,8 @@ function binarySearch(arr, element) {
         return arr[mid] == element? true : false;
 }
 
-console.log(binarySearch(array, 7));
+console.log(binarySearch(array, 4));
+console.log(binarySearch(array, 11));
 
 
 
