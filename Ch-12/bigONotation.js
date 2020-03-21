@@ -11,6 +11,29 @@
 // O(n log n) — “Order N log N”
 
 
+// ************************************************************************************************* // 
+
+// O(1) - Time to complete is the same regardless of the size of input set. An example is accessing an array element by index.
+
+// O(Log N) - Time to complete increases roughly in line with the log2(n). 
+// For example 1024 items takes roughly twice as long as 32 items, because Log2(1024) = 10 and Log2(32) = 5. 
+// An example is finding an item in a binary search tree (BST).
+
+// O(N) - Time to complete that scales linearly with the size of the input set. 
+// In other words if you double the number of items in the input set, the algorithm takes roughly twice as long. 
+// An example is counting the number of items in a linked list.
+
+// O(N Log N) - Time to complete increases by the number of items times the result of Log2(N). 
+// An example of this is heap sort and quick sort.
+
+// O(N^2) - Time to complete is roughly equal to the square of the number of items. 
+// An example of this is bubble soroh t.
+
+// O(N!) - Time to complete is the factorial of the input set. An example of this is the traveling salesman problem brute-force solution.
+
+// ************************************************************************************************* // 
+
+
 // Brief:
 // Big-O describes worse-case performance (“performance will never be any worse than …”); 
 
@@ -109,6 +132,7 @@ function quickSort(arr) {
     var right = [];
     for ( var i = 1; i < arr.length; i++) {
         // i = 0, Maximum call stack size exceeded
+        // double-count will bring NO ending point
         if (arr[i] > pivot) {
             right.push(arr[i]);
         } else {
@@ -123,4 +147,35 @@ console.log(quickSort(['q','a','z','w','s','x','e','d','c','r']));
 
 console.log(quickSort([77,23,3,35,101,8,23,15,32,55]));
 // [ 3,  8, 15, 23,  23, 32, 35, 55, 77, 101]
+
+// **************************************************************************** // 
+
+function quickSort2(arr) {
+    if ( arr.length < 2) {
+        return arr;
+    }
+
+    var pivot = arr[arr.length - 1];
+    var left = [];
+    var right = [];
+    for ( var i = arr.length-1 -1; i >= 0; i--) {
+        // starting point double-count will cause nothing to sort, 
+        // and turns out NO ending point
+        if (arr[i] > pivot) {
+            right.push(arr[i]);
+        } else {
+            left.push(arr[i]);
+        } 
+    }
+    return quickSort2(left).concat(pivot, quickSort2(right));
+}
+console.log('*************** quickSort2 ***********');
+console.log(quickSort2(['q','a','z','w','s','x','e','d','c','r']));      
+// ["a", "c", "d", "e", "q", "r", "s", "w", "x", "z"]
+
+console.log(quickSort2([77,23,3,35,101,8,23,15,32,55]));
+// [ 3,  8, 15, 23,  23, 32, 35, 55, 77, 101]
+
+
+
 
