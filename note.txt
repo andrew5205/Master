@@ -29,6 +29,9 @@
             factorial.js
             fibonacci.js
             tribonacci.js
+
+    CH-10 : numToString.js
+    
     CH-11 : binarySearchTree.js
 
     CH-12 : bigONotation.js
@@ -100,6 +103,7 @@
     split() - String.prototype
     join() - Array.prototype
     forEach() - Array.prototype
+    map() - Array.prototype
     insertAt() - 
     removeAt() - 
     swap() - 
@@ -110,6 +114,7 @@
 
     sort() - Array.prototype
     filter() - Array.prototype
+    includes() - Array.prototype, Str.prototype
 
 11. string.js
     str.length
@@ -122,7 +127,8 @@
     str.toUpperCase() - String.prototype
     str.toLowerCase() - String.prototype
     str.replace() - String.prototype
-    concat() - Array.prototype, String.prototype
+    str.concat() - Array.prototype, String.prototype
+    str.includes() - String.prototype, Array.prototype 
 
     Remove blanks
     Get string digits 
@@ -174,6 +180,8 @@ CH-9 :  sigma.js
         factorial.js
         fibonacci.js
         tribonacci.js
+
+CH-10 : numToString.js
 
 CH-11 : binarySearchTree.js
 
