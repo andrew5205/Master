@@ -129,7 +129,8 @@
     str.toLowerCase() - String.prototype
     str.replace() - String.prototype
     str.concat() - Array.prototype, String.prototype
-    str.includes() - String.prototype, Array.prototype 
+    str.includes() - String.prototype, Array.prototype
+    str.substring() - String.prototype 
 
     Remove blanks
     Get string digits 
@@ -184,6 +185,7 @@ CH-9 :  sigma.js
 
 CH-10 : numToString.js
         stringEncode.js
+        stringDecode.js
 
 CH-11 : binarySearchTree.js
 
