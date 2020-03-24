@@ -31,7 +31,8 @@
             tribonacci.js
 
     CH-10 : numToString.js
-    
+            stringEncode.js
+
     CH-11 : binarySearchTree.js
 
     CH-12 : bigONotation.js
@@ -182,6 +183,7 @@ CH-9 :  sigma.js
         tribonacci.js
 
 CH-10 : numToString.js
+        stringEncode.js
 
 CH-11 : binarySearchTree.js
 
