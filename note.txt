@@ -37,6 +37,7 @@
             rotateString.js
             uniqueLetter.js
             stringToWordArray.js
+            longestWord.js
 
     CH-11 : binarySearchTree.js
 
@@ -195,6 +196,7 @@ CH-10 : numToString.js
         rotateString.js
         uniqueLetter.js
         stringToWordArray.js
+        longestWord.js
 
 CH-11 : binarySearchTree.js
 
