@@ -34,7 +34,9 @@
             stringEncode.js
             stringDecode.js
             stringDedupe.js
+            rotateString.js
             uniqueLetter.js
+            stringToWordArray.js
 
     CH-11 : binarySearchTree.js
 
@@ -190,7 +192,9 @@ CH-10 : numToString.js
         stringEncode.js
         stringDecode.js
         stringDedupe.js
+        rotateString.js
         uniqueLetter.js
+        stringToWordArray.js
 
 CH-11 : binarySearchTree.js
 
