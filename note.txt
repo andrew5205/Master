@@ -32,6 +32,8 @@
 
     CH-10 : numToString.js
             stringEncode.js
+            stringDecode.js
+            stringDedupe.js
 
     CH-11 : binarySearchTree.js
 
@@ -186,6 +188,7 @@ CH-9 :  sigma.js
 CH-10 : numToString.js
         stringEncode.js
         stringDecode.js
+        stringDedupe.js
 
 CH-11 : binarySearchTree.js
 
