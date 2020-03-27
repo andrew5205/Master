@@ -42,3 +42,30 @@ console.log(intermediateSums([1,2,3,4,5,1,2,3,4,5,1,2,3]));
 //     1, 2, 3, 6
 // ]
 
+
+// ************************************************** // 
+// sfift array to left 
+function shiftToLeft(arr) {
+    for ( let i = 0; i < arr.length-1; i++) {
+        arr[i] = arr[i+1];
+    }
+    arr.pop();
+    // console.log(arr);
+    return arr;
+}
+// shiftToLeft([1,2,3,4,5]);                // [ 2, 3, 4, 5 ]
+console.log(shiftToLeft([1,2,3,4,5]));      // [ 2, 3, 4, 5 ]
+
+
+// ************************************************** // 
+// shift array to right 
+function shiftToRight(arr) {
+    for ( let j = arr.length -1; j >= 0; j--) {
+        arr[j+1] = arr[j];
+    }
+    return arr;
+}
+
+console.log(shiftToRight([9,8,7,6,5,4,3]));     // [9,9,8,7,6,5,4,3]
+
+
