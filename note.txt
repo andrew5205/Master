@@ -14,6 +14,8 @@
 13. number.js 
 
 14. master folder
+    CH-3 :  intermediateSums.js
+
     Ch-4 :  zipArrayIntoMap.js
             invertHash.js
             forKeyInObj.js
@@ -163,6 +165,8 @@
 
 
 master folder 
+CH-3 :  intermediateSums.js
+
 CH-4 :  zipArrayIntoMap.js
         invertHash.js
         forKeyInObj.js
