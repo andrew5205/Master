@@ -11,7 +11,9 @@
 10. array.js
 11. string.js
 12. Anagram.js
-13. master folder
+13. number.js 
+
+14. master folder
     Ch-4 :  zipArrayIntoMap.js
             invertHash.js
             forKeyInObj.js
@@ -35,6 +37,7 @@
             stringDecode.js
             stringDedupe.js
             rotateString.js
+            reverseWordOrder.js
             uniqueLetter.js
             stringToWordArray.js
             longestWord.js
@@ -47,7 +50,7 @@
             insertionSort.js
             quickSort.js
 
-13. Anagram.js
+15. Anagram.js
 
 
 
@@ -150,6 +153,13 @@
 
 12. Anagram.js
 
+13. number.js 
+
+
+
+
+
+
 
 
 master folder 
@@ -194,6 +204,7 @@ CH-10 : numToString.js
         stringDecode.js
         stringDedupe.js
         rotateString.js
+        reverseWordOrder.js
         uniqueLetter.js
         stringToWordArray.js
         longestWord.js
