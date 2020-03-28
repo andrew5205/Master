@@ -28,8 +28,35 @@ function gcd(x, y) {
 
 console.log(gcd(270, 192));     // 6
 console.log(gcd(192, 270));     // 6
+console.log(gcd(15, 0));        // please enter vaild number
+
+// ******************************************* // 
+
+function gcdRecursion(a, b) {
+    while ( !b ) {
+        return a;
+    }
+    return (gcdRecursion(b, a%b));
+}
+
+console.log(gcdRecursion(270, 192));
+console.log(gcdRecursion(192, 270));
+
+
+// ******************************************* // 
+function gcdT(m, n) {
+    return ( !n ) ? m : gcdT(n, m%n);
+}
+
+console.log(gcdT(270, 192));
+console.log(gcdT(192, 270));
 
 
 
-
-
+// ******************************************* // 
+let a = 0;
+let b = 20;
+console.log(0);     // 0
+console.log(!a)     // true 
+console.log(!b);    // false
+console.log(!0);    // true
