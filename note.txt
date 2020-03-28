@@ -14,7 +14,7 @@
 13. number.js 
 
 14. master folder
-    CH-3 :  intermediateSums.js
+    CH-3 :  intermediateSum.js
 
     Ch-4 :  zipArrayIntoMap.js
             invertHash.js
@@ -32,6 +32,7 @@
     CH-9 :  sigma.js
             factorial.js
             fibonacci.js
+            gcd.js
             tribonacci.js
 
     CH-10 : numToString.js
@@ -165,7 +166,7 @@
 
 
 master folder 
-CH-3 :  intermediateSums.js
+CH-3 :  intermediateSum.js
 
 CH-4 :  zipArrayIntoMap.js
         invertHash.js
@@ -201,6 +202,7 @@ CH-7 :  balancePoint.js
 CH-9 :  sigma.js
         factorial.js
         fibonacci.js
+        gcd.js
         tribonacci.js
 
 CH-10 : numToString.js
