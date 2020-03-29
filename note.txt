@@ -19,6 +19,7 @@
     Ch-4 :  zipArrayIntoMap.js
             invertHash.js
             forKeyInObj.js
+            mergeTwoSortedArray.js
 
     Ch-5 :  linkedList.js 
     Ch-6 :  queueAndStacks.js 
@@ -171,6 +172,7 @@ CH-3 :  intermediateSum.js
 CH-4 :  zipArrayIntoMap.js
         invertHash.js
         forKeyInObj.js
+        mergeTwoSortedArray.js
 
 CH-5 :  linkedList.js 
             addToFront()
