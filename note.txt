@@ -15,6 +15,7 @@
 
 14. master folder
     CH-3 :  intermediateSum.js
+            sumOfTwo.js
 
     Ch-4 :  zipArrayIntoMap.js
             invertHash.js
@@ -170,6 +171,7 @@
 
 master folder 
 CH-3 :  intermediateSum.js
+        sumOfTwo.js
 
 CH-4 :  zipArrayIntoMap.js
         invertHash.js
