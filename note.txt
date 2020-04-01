@@ -48,6 +48,7 @@
             longestWord.js
             isRotation.js
             isPalindrome.js
+            isPermutation.js
 
     CH-11 : binarySearchTree.js
 
@@ -222,6 +223,7 @@ CH-10 : numToString.js
         longestWord.js
         isRotation.js
         isPalindrome.js
+        isPermutation.js
 
 CH-11 : binarySearchTree.js
 
