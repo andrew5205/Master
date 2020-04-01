@@ -49,6 +49,7 @@
             isRotation.js
             isPalindrome.js
             isPermutation.js
+            isPangram.js
 
     CH-11 : binarySearchTree.js
 
@@ -224,6 +225,7 @@ CH-10 : numToString.js
         isRotation.js
         isPalindrome.js
         isPermutation.js
+        isPangram.js
 
 CH-11 : binarySearchTree.js
 
