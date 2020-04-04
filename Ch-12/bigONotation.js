@@ -93,6 +93,81 @@ console.log(findIndex(array, 'e')); // -1 (4 iterations - worst case)
 // worst case time (iterations) is the square of the number of inputs. 
 // The time grows exponentially related to the number of inputs.
 
+// bubble sort 
+// selection sort 
+// insertion sort
+
+
+// Bubble sort 
+function bubble_Sort(arr){
+
+    var i, j;
+    var temp;
+
+    for (i = 0; i < arr.length; i++) {
+        for (j = 0; j < arr.length - i; j++) {    // biggest moved to the far right, no need to check again
+            if ( arr[j] > arr[j+1] ) {
+                temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+    }
+
+    return arr;
+}
+console.log(bubble_Sort([3, 0, 2, 5, -1, 4, 1]));           // [-1, 0, 1, 2, 3, 4, 5]
+
+
+
+// selection sort 
+function selectionSort(arr) {
+    var i, j;
+    for ( i = 0; i < arr.length; i++) {     // loop thru whole array
+
+        var minIndex = i;
+        for ( j = i + 1; j < arr.length; j++) {     // find index of min element 
+            if ( arr[minIndex] > arr[j]) {
+                minIndex = j;
+            }
+        }
+        var temp = arr[i];                          // move the min to the front 
+        arr[i] = arr[minIndex];
+        arr[minIndex] = temp;
+    }
+    return arr;
+}
+
+let testArr = [19, 5, 6, 14, 67, 36, 17, 34];
+selectionSort(testArr);
+console.log(testArr);
+
+
+// insertion sort 
+function insertionSort(arr) {
+    for(var i = 0; i < arr.length; i++) {
+        var current = arr[i];
+        var j = i-1;
+
+        while( j >= 0 && arr[j] > current) {
+            var temp = arr[j];
+            arr[j] = arr[j+1];
+            arr[j+1] = temp;
+            j--;
+        }
+    }
+    return arr;
+}
+
+console.log(insertionSort([5,4,3,2,1]));
+
+
+
+
+
+
+
+
 function buildSquareMatrix(arr) {
     var matrix = [];
     for ( var i = 0; i < arr.length; i++) {
