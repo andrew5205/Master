@@ -58,9 +58,12 @@
             selectionSort.js
             insertionSort.js
             quickSort.js
+            mergeSort.js
 
 15. Anagram.js
-
+16. Es6 folder 
+        arrow.js 
+        playMap.js
 
 
 1. basic13.js 
@@ -234,4 +237,10 @@ CH-12 : bigONotation.js
         selectionSort.js
         insertionSort.js
         quickSort.js
+        mergeSort.js
 
+
+
+Es6 folder 
+arrow.js
+playMap.js
