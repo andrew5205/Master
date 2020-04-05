@@ -27,7 +27,7 @@
 // An example of this is heap sort and quick sort.
 
 // O(N^2) - Time to complete is roughly equal to the square of the number of items. 
-// An example of this is bubble soroh t.
+// An example of this is bubble sort.
 
 // O(N!) - Time to complete is the factorial of the input set. An example of this is the traveling salesman problem brute-force solution.
 
@@ -251,6 +251,39 @@ console.log(quickSort2(['q','a','z','w','s','x','e','d','c','r']));
 console.log(quickSort2([77,23,3,35,101,8,23,15,32,55]));
 // [ 3,  8, 15, 23,  23, 32, 35, 55, 77, 101]
 
+
+
+
+
+//  ***********************  mergeSort O( N log N)  ****************************** //
+// O (N log N)
+
+function merge(left, right) {
+    let arr = [];
+
+    while ( left.length && right.length) {
+        if ( left[0] < right[0] ) {
+            arr.push(left.shift());
+        } else {
+            arr.push(right.shift());
+        }
+    }
+    return arr.concat(left).concat(right);
+}
+
+function mergeSort(arr) {
+    if ( arr.length < 2) {
+        return arr;
+    }
+
+    const middle = Math.floor(arr.length / 2);
+    const left = arr.slice(0, middle);
+    const right = arr.slice(middle);
+
+    return merge(mergeSort(left), mergeSort(right));
+}
+
+console.log(mergeSort([9,3,6,2,4,5,7,1,8,10]));     // [1,2,3,4,5,6,7,8,9,10]
 
 
 
