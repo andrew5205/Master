@@ -6,12 +6,15 @@
 // Instead, ‘divide and conquer’, taking advantage of the fact that the array is sorted. 
 // As always, only use built-in functions that you are prepared to recreate (write yourself) on demand!
 
+// var array = [1,2,3,4,5,6,7,8,9,10];
+
+
 var array = [1,2,3,4,5,6,7,8,9,10];
 
 function binarySearch(arr, element) {
 
-        var start = arr[0];
-        var end = arr[arr.length - 1];
+        var start = 0;
+        var end = arr.length - 1;
         var mid = Math.floor((start + end) / 2);
 
         // edge case 
@@ -32,6 +35,4 @@ function binarySearch(arr, element) {
 
 console.log(binarySearch(array, 4));
 console.log(binarySearch(array, 11));
-
-
 
