@@ -36,3 +36,74 @@ function binarySearch(arr, element) {
 console.log(binarySearch(array, 4));
 console.log(binarySearch(array, 11));
 
+
+// ********************   using recursion   *********************** //
+console.log( "********* recursion ***************")
+
+function binarySearchRec(arr, num) {
+    let mid = Math.floor(arr.length / 2);
+
+    if ( !arr.length ) {
+        return -1;
+    }
+    
+    while (arr.length > 0) {
+        
+        if ( arr[mid] == num) {
+            return arr[mid];
+        }
+
+        if ( arr[mid] > num ) {
+            arr = arr.slice(0, mid);
+            return binarySearchRec(arr, num);
+        }
+        
+        else if ( arr[mid] < num ) {
+            arr = arr.slice(mid+1, arr.length);
+            return binarySearchRec(arr, num);
+        }
+    }
+
+}
+
+console.log(binarySearchRec([1,2,3,4,5,6,7,8,9,10],10));    // 10 
+console.log(binarySearchRec([1,2,3,4,5,6,7,8,9,10],2));     // 2 
+console.log(binarySearchRec([1,2,3,4,5,6,7,8,9,10],15));    // -1
+
+
+// ********************   using recursion  splice  *********************** //
+console.log( "********* splice ***************")
+
+function binarySearchRec(arr, num) {
+    let mid = Math.floor(arr.length / 2);
+
+    if ( !arr.length ) {
+        return -1;
+    }
+    
+    while (arr.length > 0) {
+        
+        if ( arr[mid] == num) {
+            return arr[mid];
+        }
+
+        if ( arr[mid] > num ) {
+            arr = arr.splice(0, mid);
+            return binarySearchRec(arr, num);
+        }
+        
+        else if ( arr[mid] < num ) {
+            arr = arr.splice(mid+1);
+            return binarySearchRec(arr, num);
+        }
+    }
+
+}
+
+console.log(binarySearchRec([1,2,3,4,5,6,7,8,9,10],10));    // 10 
+console.log(binarySearchRec([1,2,3,4,5,6,7,8,9,10],2));     // 2 
+console.log(binarySearchRec([1,2,3,4,5,6,7,8,9,10],15));    // -1
+
+
+
+console.log([1,2,3,4,5,6,7].splice(3));     //[ 4, 5, 6, 7 ]
