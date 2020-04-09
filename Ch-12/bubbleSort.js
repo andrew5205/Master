@@ -49,6 +49,25 @@ console.log(bubbleSort([3, 0, 2, 5, -1, 4, 1]));        // [-1, 0, 1, 2, 3, 4, 5
 
 
 
+// *************************** ES6 destructuring  ************************************************************** // 
+function bubble_Sort_Destructuring(arr){
+
+    var i, j;
+    var temp;
+
+    for (i = 0; i < arr.length; i++) {
+        for (j = 0; j < arr.length - i; j++) {    // biggest moved to the far right, no need to check again
+            if ( arr[j] > arr[j+1] ) {
+                [arr[j], arr[j+1]] = [arr[j+1], arr[j]];        // ES6 destructuring
+            }
+        }
+    }
+
+    return arr;
+}
+console.log(bubble_Sort_Destructuring([3, 0, 2, 5, -1, 4, 1]));           // [ -1, 0, 1, 2, 3, 4, 5 ]
+
+
 // ******************************    recursion       **************************************** // 
 // Time complexity: O(n ^ 2)
 // Space complexity: O(n)
@@ -90,6 +109,10 @@ function bubble_Sort_Left(arr) {
     return arr;
 }
 console.log(bubble_Sort_Left([3, 0, 2, 5, -1, 4, 1]));      // [5, 4, 3, 2, 1, 0, -1 ]
+
+
+
+
 
 
 
