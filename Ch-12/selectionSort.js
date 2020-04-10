@@ -30,7 +30,7 @@ selectionSort(testArr);
 console.log(testArr);
 
 
-// ******************************************************* // 
+// ********************************************************************************** // 
 // think as each cheking in group of two j, j+1
 
 // selection sort, but max to the left 
@@ -54,3 +54,23 @@ let testArr2 = [19, 5, 6, 14, 67, 36, 17, 34];
 selectionSort_Max_to_Left(testArr2);
 console.log(testArr2);
 
+
+
+// ********************************************************************************** // 
+
+function selectionSortDestructuring(arr) {
+    var i, j;
+    for ( i = 0; i < arr.length; i++) {     // loop thru whole array
+
+        var minIndex = i;
+        for ( j = i + 1; j < arr.length; j++) {     // find index of min element 
+            if ( arr[minIndex] > arr[j]) {
+                minIndex = j;
+            }
+        }
+        [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
+    }
+    return arr;
+}
+
+console.log(selectionSortDestructuring([19, 5, 6, 14, 67, 36, 17, 34]));
