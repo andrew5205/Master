@@ -11,9 +11,10 @@
 10. array.js
 11. string.js
 12. Anagram.js
-13. number.js 
+13. number.js
+14. multiplePointers.js 
 
-14. master folder
+15. master folder
     CH-3 :  intermediateSum.js
             sumOfTwo.js
 
@@ -50,6 +51,7 @@
             isPalindrome.js
             isPermutation.js
             isPangram.js
+            findIntersections.js
 
     CH-11 : binarySearchTree.js
 
@@ -167,6 +169,7 @@
 
 13. number.js 
 
+14. multiplePointers.js 
 
 
 
@@ -229,6 +232,7 @@ CH-10 : numToString.js
         isPalindrome.js
         isPermutation.js
         isPangram.js
+        findIntersections.js
 
 CH-11 : binarySearchTree.js
 
