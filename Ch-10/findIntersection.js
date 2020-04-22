@@ -16,19 +16,19 @@ function FindIntersection(strArr) {
 
     var arr0 = strArr[0].split(', ');
     var arr1 = strArr[1].split(', ');
-    strArr = [];
+    newArr = [];
     
     for (var i = 0; i < arr0.length; i++) {
         if (arr1.indexOf(arr0[i]) != -1) {
-        strArr.push(arr0[i]);
+        newArr.push(arr0[i]);
         }
     }
     
-    if (strArr.length === 0) {
+    if (newArr.length === 0) {
         return 'false';
     }
     
-    return strArr.join(',');
+    return newArr.join(',');
     
 }
 
@@ -44,5 +44,3 @@ console.log(arr[1].split(', '));    // [ '1', '2', '4', '13', '15' ]
 console.log(arr[1]);                // 1, 2, 4, 13, 15
 
 console.log(typeof(arr[0]));        // string 
-
-
