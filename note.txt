@@ -11,8 +11,8 @@
 10. array.js
 11. string.js
 12. Anagram.js
-13. number.js
-14. multiplePointers.js 
+13. number.js 
+14 object.js 
 
 15. master folder
     CH-3 :  intermediateSum.js
@@ -51,7 +51,7 @@
             isPalindrome.js
             isPermutation.js
             isPangram.js
-            findIntersections.js
+            longestIncreasingSequnce.js
 
     CH-11 : binarySearchTree.js
 
@@ -60,7 +60,6 @@
             selectionSort.js
             insertionSort.js
             quickSort.js
-            mergeSort.js
 
 15. Anagram.js
 16. Es6 folder 
@@ -94,6 +93,7 @@
     Math.floor()
     Math.ceil()
     Math.trunc()
+    Math.pow()
 
 5. reverseStrArr.js 
     split()
@@ -169,7 +169,7 @@
 
 13. number.js 
 
-14. multiplePointers.js 
+14. object.js
 
 
 
@@ -232,7 +232,7 @@ CH-10 : numToString.js
         isPalindrome.js
         isPermutation.js
         isPangram.js
-        findIntersections.js
+        longestIncreasingSequnce.js
 
 CH-11 : binarySearchTree.js
 
@@ -241,10 +241,10 @@ CH-12 : bigONotation.js
         selectionSort.js
         insertionSort.js
         quickSort.js
-        mergeSort.js
 
 
 
 Es6 folder 
 arrow.js
 playMap.js
+
