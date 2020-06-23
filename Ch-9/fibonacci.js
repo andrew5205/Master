@@ -80,11 +80,11 @@ console.log(rTenFibonacci(5));
 
 // Dynamic Programming 
 // memoization
-function fibDP(n, preValues = []) {
+function fibDP(n, cache = []) {
 
     // check if value array already has the result
-    if( preValues[n]) {
-        return preValues[n];
+    if( cache[n]) {
+        return cache[n];
     }
 
     // same as original recursion fib() 
@@ -93,12 +93,11 @@ function fibDP(n, preValues = []) {
     if ( n < 2) {
         result = n;
     } else {
-        result = fibDP(n-1, preValues) + fibDP(n-2, preValues);
+        result = fibDP(n-1, cache) + fibDP(n-2, cache);
     }
-    // update result to preValues array 
-    preValues[n] = result;
+    // update result to cache array 
+    cache[n] = result;
 
     return result;
 }
 console.log(fibDP(40));
-
