@@ -76,3 +76,29 @@ function rTenFibonacci(num) {
 }
 console.log(rTenFibonacci(5));
 
+
+
+// Dynamic Programming 
+// memoization
+function fibDP(n, preValues = []) {
+
+    // check if value array already has the result
+    if( preValues[n]) {
+        return preValues[n];
+    }
+
+    // same as original recursion fib() 
+    // save the result into a variable 
+    let result;
+    if ( n < 2) {
+        result = n;
+    } else {
+        result = fibDP(n-1, preValues) + fibDP(n-2, preValues);
+    }
+    // update result to preValues array 
+    preValues[n] = result;
+
+    return result;
+}
+console.log(fibDP(40));
+
